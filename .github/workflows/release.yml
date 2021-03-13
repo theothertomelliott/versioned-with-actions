@@ -11,3 +11,5 @@ jobs:
     name: Create a release
     steps:
       - uses: brpaz/action-semantic-release@v1
+        with:
+          branch: main
