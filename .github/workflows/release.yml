@@ -1,0 +1,13 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    name: Create a release
+    steps:
+      - uses: brpaz/action-semantic-release@v1
