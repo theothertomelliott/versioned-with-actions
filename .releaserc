@@ -3,7 +3,6 @@
     ["@semantic-release/commit-analyzer", {
       "preset": "angular",
       "releaseRules": [
-        {"scope": "release", "release": true},
         {"scope": "no-release", "release": false}
       ]
     }],
