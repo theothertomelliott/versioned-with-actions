@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Create a release
     steps:
+      - name: "Checkout"
+        uses: actions/checkout@master
       - uses: brpaz/action-semantic-release@v1
         with:
           branch: main
