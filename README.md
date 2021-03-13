@@ -1,6 +1,6 @@
 # versioned-with-actions
 
-A mini-project to set up commit-driven releases for projects of various types.
+A mini-project to set up commit-driven releases via GitHub actions.
 
 Releases are managed using the [semantic-release](https://semantic-release.gitbook.io/) tool.
 
