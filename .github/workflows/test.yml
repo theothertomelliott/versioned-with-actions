@@ -1,0 +1,16 @@
+name: Test PR
+
+on:  
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test PR
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@master
+      - name: "Placeholder"
+        run: echo "Tests go here"
